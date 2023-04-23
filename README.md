@@ -46,7 +46,9 @@ F=(((C.B'.A)+(D.C'.A)+(C.B'.A))')'
 
 ## Program:
 /*
+
 Program to implement the given logic function and to verify its operations in quartus using Verilog programming.
+```
 Developed by: anbuselvam.A
 RegisterNumber:212222240009 
 USING NAND OPERATION
@@ -73,6 +75,7 @@ assign R = C&(~B)&A;
 assign S = ~(P|Q|R);
 assign F = ~S;
 endmodule
+````
 
 */
 
